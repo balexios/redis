@@ -1,0 +1,11 @@
+diff --exclude=.git -r custom/redis/ original/redis/
+Only in original/redis/deps/jemalloc: configure
+Only in original/redis/deps/jemalloc/test/integration: cpp
+Only in original/redis/deps/jemalloc: VERSION
+Only in original/redis/: .gitignore
+diff '--exclude=.git' -r custom/redis/src/config.h original/redis/src/config.h
+38c38
+< // #include <linux/version.h>
+---
+> #include <linux/version.h>
+Only in original/redis/tests: tmp
